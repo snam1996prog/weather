@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body bgcolor="#212121">
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" id="city">
+                <button id="s_city" class="edit">search</button>
+            </div>
+            <div class="img" id="main_img">
+                <img src="sunny.png" alt="Image not available">
+            </div>
+            <div class="info">
+                <div class="temp_con">
+                    <h1 class="center" id="temp">7<sup>o</sup>c</h1>
+                    <h1 class="cont" id="city_temp">New York</h1>
+                </div>
+                <div class="sec_info">
+                    <div class="humidity"><img src="humidity.png" class="sec_img" alt="Image not available"><p class="gen" id="humid">48%</p></div>
+                    <div class="wind"><img src="wind.png" class="sec_img" alt="Image not available"><p class="gen" id="win">18km/h</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

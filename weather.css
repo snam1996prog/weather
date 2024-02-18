@@ -1,0 +1,101 @@
+/* blue color: #515f82
+green color: #4ab9a9
+text color: #545859*/
+/*Font links*/
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@1,800&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid white;
+    background-image: linear-gradient(to bottom right, #4ab9a9, #515f82);
+    height: 25rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+.edit {
+    border-radius: 10px;
+    height: 30px;
+    width: 56px;
+    border: 1px solid wheat;
+    background: white;
+    color: #545859;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search input {
+    border-radius: 10px;
+    height: 30px;
+    width: 190px;
+    border: 1px solid white;
+    color: #545859;
+    background-color: white;
+}
+
+.search {
+    padding: 20px 0px 0px 30px;
+}
+
+.img img {
+    width: 10rem;
+    height: 8rem;
+    position: relative;
+    left: 4.5rem;
+    top: 0.5rem;
+}
+
+.temp_con {
+    color: white;
+    font-family: 'Ubuntu';
+    position: relative;
+    top: 2rem;
+    left: 3.5rem;
+}
+
+.temp_con h1 {
+    font-size: 40px;
+}
+
+.center {
+    position: relative;
+    left: 3rem;
+}
+
+.sec_img {
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: invert(100%);
+}
+
+.sec_info {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 4rem;
+}
+
+.humidity {
+    display: flex;
+}
+
+.wind {
+    display: flex;
+}
+
+.gen {
+    color: white;
+    font-size: 25px;
+}
